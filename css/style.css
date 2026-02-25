@@ -80,12 +80,6 @@ main {
   margin-bottom: 4rem;
 }
 
-main.container>div {
-  max-width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 header,
 footer {
   margin: 0 auto;
@@ -208,6 +202,9 @@ img {
 }
 
 .text-block {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 1.5rem;
 }
 
@@ -243,13 +240,16 @@ img {
 }
 
 .split-section {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
   gap: 3rem;
   align-items: stretch;
   margin-bottom: 4rem;
 }
 
-.split-section:nth-of-type(even) {
+.split-section-reverse {
   flex-direction: row-reverse;
 }
 
@@ -260,7 +260,7 @@ img {
   justify-content: center;
 }
 
-.split-section>div h2:not(:first-child) {
+.section-subtitle {
   margin-top: 2.5rem;
 }
 
